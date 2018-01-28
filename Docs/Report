@@ -1,0 +1,23 @@
+
+[*] Regras personalizadas
+Acesso à Receitanet: PORTAS: 3443,3456 no Range: 201.198.239.0/24
+Acesso à Compra de vale transporte, porta 8880 no ip: 200.165.79.154
+Network Time Protocol liberado para 91.189.94.4 na porta udp 123
+Acesso à Banco Rural liberado no ip 200.154.23.0 na porta 8444
+Acesso à serviço de configuração do SupraMail no endereço 200.11.238.119 na porta 4040
+--------SSH----------
+SSH to Server| Client: 189.53.6.118 in port: 4443
+----------TS-----------
+Terminal Server Connections Port: 9001 Internal Server: 192.168.0.1 
+Terminal Server Connections Port: 9002 Internal Server: 192.168.0.2 
+----------VNC----------
+VNC Connections Port 6000 InternalServer 192.168.0.20
+VNC Connections Port 6001 InternalServer 192.168.0.22
+VNC Connections Port 6002 InternalServer 192.168.0.45
+VNC Connections Port 6003 InternalServer 192.168.0.34
+VNC Connections Port 6004 InternalServer 192.168.0.76
+-----INFO------
+Acesso a internet liberado para a rede 192.168.0.0/24 para a interface que estiver ativa
+---------------
+-----SERVICES----
+Enable domain in port:53 and protocol:udp
